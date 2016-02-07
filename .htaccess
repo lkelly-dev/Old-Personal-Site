@@ -1,0 +1,7 @@
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|</body>| <script type=\"text/javascript\">     var loc = ((\"https:\" == document.location.protocol) ? \"https://analytics.\" : \"http://analytics.\");     document.write(unescape(\"%3Cscript src='\" + loc + \"sitewit.com/v3/658625533/sw.js' type='text/javascript'%3E%3C/script%3E\")); </script>   </body>|ni"
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html

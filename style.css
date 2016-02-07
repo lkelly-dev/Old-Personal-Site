@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  font-size: 19px;
+  text-align: center;
+  color: #666;
+  background: #666666;
+    animation: 1s ease 0s normal none 1 running fadein;
+
+}
+
+.title{
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.25;
+   
+}
+
+hr{
+ margin-bottom: 50px;   
+margin-top: 50px;
+width: 90%
+    
+}
+
+a:hover {
+color: #666666;
+ text-decoration: underline;
+}
+
+
+
+.title{
+    margin: em 0 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.name{
+    color: #009688;
+    display:inline-block;
+}
+
+
+
+.paragraph{
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (min-width: 30em) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; vertical-align: middle;}
+}
+
+.card{
+    padding:1.5rem;
+    box-shadow:0 1px 2px #aaa;
+    background:#f6f6f6;
+    margin:3rem 3rem 3rem;
+    border-radius:3px;
+    transform-origin:top left;
+
+}
+
+.footer{
+    background: #009688;   
+    color: #f6f6f6;
+    height:150px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    
+}
+
+.copyright{
+    background: #00897B;
+     color: #f6f6f6;
+    height:50px;
+    width: 100%;
+     vertical-align : bottom;
+
+
+}
+
+a {
+    
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.125em;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.25;
+    color:#f6f6f6;
+    vertical-align: middle;
+    text-decoration: none;
+   
+}
+
+
+
+.circular {
+	 width: 200px;
+  height: 200px;
+  border-radius: 50%; /*don't forget prefixes*/
+  animation: 1s ease 0s normal none 1 running fadein;
+  background-position: 50px center;
+  /* as mentioned by Vad: */
+  background-size: cover;
+    margin-left: auto ;
+  margin-right: auto ;
+
+	}
+
+
+
+
+@media only screen and (max-width : 480px) {
+
+    
+}
+
+@media only screen and (min-width: 480px){
+    
+    
+}
+
+@media only screen and (min-width: 985px) {
+
+    #linkedin{
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
+    #github{
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+    
+    #codepen{
+        margin-left: 10px;
+        margin-right: 10px;
+       
+    }
+    
+    #twitter{
+        margin-left: 10px;
+        margin-right: 10px;
+      
+    }
+    
+}
+
+
+
+
+
+
+
+
