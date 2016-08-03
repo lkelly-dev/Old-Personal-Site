@@ -20,14 +20,14 @@ h1, h2, h3, h4, h5, h6, p {
     text-align: center;
     text-transform: uppercase;
     line-height: 1.25;
-   
+
 }
 
 hr{
- margin-bottom: 50px;   
+ margin-bottom: 50px;
 margin-top: 50px;
 width: 90%
-    
+
 }
 
 a:hover {
@@ -75,14 +75,33 @@ color: #666666;
 
 }
 
+.project-card{
+  width:25%;
+  height:300px;
+  min-width: 200px;
+  vertical-align: bottom;
+  display: inline-block;
+  padding:1.5rem;
+  box-shadow:0 1px 1px #aaa;
+  background:#FBFBFB;
+  margin:0 1rem 1rem;
+  border-radius:3px;
+  animation:fly-in-from-left .5s 1s ease;
+
+}
+
+.project-card-logo{
+
+}
+
 .footer{
-    background: #009688;   
+    background: #009688;
     color: #f6f6f6;
     height:150px;
     width: 100%;
     position: relative;
     bottom: 0;
-    
+
 }
 
 .copyright{
@@ -96,7 +115,7 @@ color: #666666;
 }
 
 a {
-    
+
     font-family: "Josefin Sans",sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -107,7 +126,7 @@ a {
     color:#f6f6f6;
     vertical-align: middle;
     text-decoration: none;
-   
+
 }
 
 
@@ -130,12 +149,12 @@ a {
 
 @media only screen and (max-width : 480px) {
 
-    
+
 }
 
 @media only screen and (min-width: 480px){
-    
-    
+
+
 }
 
 @media only screen and (min-width: 985px) {
@@ -143,33 +162,25 @@ a {
     #linkedin{
         margin-left: 10px;
         margin-right: 10px;
-       
+
     }
-    
+
     #github{
         margin-left: 10px;
         margin-right: 10px;
-        
+
     }
-    
+
     #codepen{
         margin-left: 10px;
         margin-right: 10px;
-       
+
     }
-    
+
     #twitter{
         margin-left: 10px;
         margin-right: 10px;
-      
+
     }
-    
+
 }
-
-
-
-
-
-
-
-
