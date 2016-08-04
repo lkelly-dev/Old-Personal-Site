@@ -81,17 +81,37 @@ color: #666666;
   min-width: 200px;
   vertical-align: bottom;
   display: inline-block;
+
   padding:1.5rem;
   box-shadow:0 1px 1px #aaa;
   background:#FBFBFB;
   margin:0 1rem 1rem;
   border-radius:3px;
   animation:fly-in-from-left .5s 1s ease;
+  text-align: center;
 
 }
 
-.project-card-logo{
+.project-card-image{
+  width:175px;
+  height:175px;
+}
 
+
+
+
+
+.card-link{
+  margin: auto;
+  font-size: 19px;
+  text-align: center;
+  color: #666;
+
+
+}
+
+.project-card:hover{
+  box-shadow:1px 1px 3px 3px #aaa;
 }
 
 .footer{
@@ -144,6 +164,28 @@ a {
 
 	}
 
+
+@media screen and (max-width: 726px) {
+      .project-card {
+        min-width: 125px;
+        width:50%;
+          margin: 1rem auto;
+      }
+
+      .project-card-image{
+        width: 125px;
+        height: 125px;
+      }
+
+      .circular{
+        width: 175px !important;
+        height: 175px !important;
+        background-position: 50% 25% !important;
+      }
+      h2{
+        font-size: 20px;
+      }
+  }
 
 
 
