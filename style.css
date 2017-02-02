@@ -311,6 +311,7 @@ a:hover {
 
     .title-text{
       text-align: center;
+      padding: 0;
     }
 
     .description-text{
