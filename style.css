@@ -152,6 +152,56 @@ a:hover {
 }*/
 
 
+/*Work and Education Section*/
+
+.work-container{
+  width: 1280px;
+  margin: auto;
+}
+
+#work-history-title{
+  padding-bottom: 20px;
+}
+
+.work-content{
+
+}
+
+.job-title{
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+  margin-left: 10%;
+  width: 40%;
+}
+
+.title-text{
+  text-align: left;
+  padding-right: 20px;
+}
+
+.job-position{
+  font-weight: 200;
+  font-size: 1rem;
+  color: #009688;
+}
+
+.job-description{
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+  width: 35%;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+.description-text{
+  text-transform: none;
+  font-size: 15px;
+  text-align: left;
+  padding-left: 20px;
+}
+
 /*Footer Sections*/
 
 .footer {
@@ -235,13 +285,41 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 1350px) {
+  .work-container{
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 900px) {
     .row {
         width: 100%;
     }
+    .job-title{
+      display: block;
+      float: none;
+      margin: auto;
+      width: 100%;
+    }
+
+    .job-description{
+      display: block;
+      float: none;
+      margin: auto;
+      width: 100%;
+    }
+
+    .title-text{
+      text-align: center;
+    }
+
+    .description-text{
+      text-align: center;
+      padding-left: 0;
+    }
 }
 
-@media screen and (max-width: 726px) {
+@media screen and (max-width: 730px) {
     .circular {
         width: 175px !important;
         height: 175px !important;
@@ -259,6 +337,9 @@ a:hover {
     h2 {
         font-size: 20px;
     }
+
+
+
 }
 
 .resume {
