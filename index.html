@@ -27,8 +27,31 @@
 </head>
 
 <body>
+  <a name="home"></a>
 
-<div class="card">
+<div class="card" id="main-card">
+
+
+<div class="navigation" id=nav-circles>
+  <a href="#home">
+    <span>Home</span>
+    <i class="nav-item fa fa-circle-o"></i>
+  </a>
+  <a href="#skills">
+    <span>Skills</span>
+    <i class="nav-item fa fa-circle-o"></i>
+  </a>
+  <a href="#projects">
+    <span>Projects</span>
+    <i class="nav-item fa fa-circle-o"></i>
+  </a>
+  <a href="#work">
+    <span>Work</span>
+    <i class="nav-item fa fa-circle-o"></i>
+  </a>
+</div>
+
+
     <div class="title">
         <h2 class="title">My Name is
     <div class="name">
@@ -43,9 +66,10 @@
     <div class="circular">
     </div>
 
+<a name="skills"></a>
     <hr>
-
 <div class="skills">
+
 <h2>My Skills</h2>
             <div class="row">
                 <div class="col-skills">
@@ -63,17 +87,34 @@
             </div>
         </div>
 
-        <hr>
+        <a name="projects"></a>
+        <hr id="above_projects">
 
 
-        <div class="projects">
+        <div class="projects" >
             <h2 style="padding-bottom: 1rem;">My Projects</h2>
+            <p class="card-description">Click to expand/shrink</p>
             <div class="row">
                 <a class="card-link" href="https://courserater.herokuapp.com">
                     <div class="project-card">
                         <img src="pics/courserater.png" alt="UofT Course Rater" class="project-card-image">
                         <h4>UofT Course Rater</h4>
                         <p style="text-transform: none; font-size:15px;">An app for UofT students to rate courses and find distances between classes.</p>
+                        <ul class="hidden-stuff">
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li>
+                              <div>
+                                <p class="tech-used">Javascript</p>
+                                <p class="tech-used">MongoDB</p>
+                                <p class="tech-used">Express</p>
+                                <p class="tech-used">AngularJS</p>
+                                <p class="tech-used">NodeJS</p>
+                                <p class="tech-used">Google Maps API</p>
+                                <p class="tech-used">JSON</p>
+                              </div>
+                            </li>
+                        </ul>
                     </div>
                 </a>
 
@@ -82,6 +123,18 @@
                         <img src="pics/dwmc.png" alt="Dude Wheres My Car?" class="project-card-image">
                         <h4>Dude Where's My Car?</h4>
                         <p class="card-description">An Android app that allows a user to locate their vehicle wherever they parked it.</p>
+                        <ul class="hidden-stuff">
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li>
+                              <div>
+                                <p class="tech-used">Java</p>
+                                <p class="tech-used">Android SDK</p>
+                                <p class="tech-used">Google Maps API</p>
+                                <p class="tech-used">XML</p>
+                              </div>
+                            </li>
+                        </ul>
                     </div>
                 </a>
 
@@ -90,15 +143,40 @@
                         <img src="pics/kellydesigns.png" alt="Kelly Designs" class="project-card-image">
                         <h4>Kelly Designs</h4>
                         <p class="card-description">Focused on creating a clean interface and the ability for the owner to make changes using Kirby CMS.</p>
+                        <ul class="hidden-stuff">
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li>
+                              <div>
+                                <p class="tech-used">Kirby CMS</p>
+                                <p class="tech-used">PHP</p>
+                                <p class="tech-used">CSS</p>
+                                <p class="tech-used">HTML</p>
+                              </div>
+                            </li>
+                        </ul>
                     </div>
                 </a>
 
 
-                <a class="card-link" href="http://test.liamckelly.com">
+                <a class="card-link" >
                     <div class="project-card">
                         <img src="pics/batco.jpg" alt="Bolton Access TV" class="project-card-image">
                         <h4>Bolton Access TV</h4>
                         <p class="card-description">Redesign of the Bolton Access Television network site with material design.</p>
+                        <ul class="hidden-stuff">
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li>
+                              <div>
+                                <p class="tech-used">Wordpress</p>
+                                <p class="tech-used">PHP</p>
+                                <p class="tech-used">CSS</p>
+                                <p class="tech-used">HTML</p>
+                                <p class="tech-used">MySQL</p>
+                              </div>
+                            </li>
+                        </ul>
                     </div>
                 </a>
 
@@ -107,12 +185,24 @@
                         <img src="pics/shopping.png" alt="Shopping Cart App" class="project-card-image">
                         <h4>Shopping Cart</h4>
                         <p class="card-description">A simple shopping list Android application built with a card UI.</p>
+                        <ul class="hidden-stuff">
+                            <li>Line 1</li>
+                            <li>Line 2</li>
+                            <li>
+                              <div>
+                                <p class="tech-used">Java</p>
+                                <p class="tech-used">Android SDK</p>
+                                <p class="tech-used">XML</p>
+                              </div>
+                            </li>
+                        </ul>
                     </div>
                 </a>
             </div>
 
         </div>
 
+        <a name="work"></a>
         <hr>
 
         <div class="work-history">
@@ -210,6 +300,6 @@
 </body>
 
 </html>
-
-<script type="text/javascript">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="js_scripts.js" type="text/javascript">
 </script>
